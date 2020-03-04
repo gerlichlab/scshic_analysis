@@ -132,7 +132,7 @@ Example regions in this figure were plotted in the following [notebook](https://
 
 ## (c)
 
-TODO
+Scaling plots for WT G2 and Nipbl-degraded samples constructed from all reads can be found in the following [notebook](https://github.com/Mittmich/scsHiCanalysis/blob/master/notebooks/Scaling_G2_Nipbl_all_reads.ipynb).
 
 ## (e)
 
