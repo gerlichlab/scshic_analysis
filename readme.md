@@ -4,23 +4,16 @@ This repository contains notebooks for the analysis of scsHi-C data.
 
 ## Fig. 1
 
-### (f)
+### (d)
 
 The analysis of relative mutation rates between a sample grown for 5 days in 4sT and a control sample before and after OsO4-mediated conversion can be found in this [notebook](https://github.com/Mittmich/scsHiCanalysis/blob/master/notebooks/Calculate_relative_mutation_rate.ipynb).
 
-### (h)
-
-The quantification of doubly labelled reads in scsHi-C samples released into S-Phase for different amounts of time can be found in this [notebook](https://github.com/Mittmich/scsHiCanalysis/blob/master/notebooks/Count_percentage_doubly_labeled_S-Phase-Release.ipynb).
-
-### (i)
-
-The quantification of trans-sister contacts in scsHi-C samples generated n G2, prometaphase in the following G1 phase can be found in this [notebook](https://github.com/Mittmich/scsHiCanalysis/blob/master/notebooks/Count_cis_trans_G2_Prometaphase_G1.ipynb).
 
 ## Fig. 2
 
 ### (a)
 
-The visualization of the example region on chr.1 for the pooled G2 WT samples can be found in this [notebook](https://github.com/Mittmich/scsHiCanalysis/blob/master/notebooks/G2_pooled_examples.ipynb).
+The visualization of the example region on chr.1 for the pooled G2 WT samples can be found in this [notebook](https://github.com/Mittmich/scsHiCanalysis/blob/master/notebooks/G2_pooled_examples_v2.ipynb).
 
 ### (b)
 
@@ -32,27 +25,27 @@ The calculation of genomie scaling curves of the pooled G2 WT sample and the poo
 
 ### (e)
 
-The visualization of the example region on chr.8 for the pooled G2 WT samples can be found in this [notebook](https://github.com/Mittmich/scsHiCanalysis/blob/master/notebooks/G2_pooled_examples.ipynb).
+The visualization of the example region on chr.8 for the pooled G2 WT samples can be found in this [notebook](https://github.com/Mittmich/scsHiCanalysis/blob/master/notebooks/G2_pooled_examples_v2.ipynb).
 
 ### (f), (g) and (h)
 
-The quantification visualization of LOLA-enrichment scores, the quantification of H3K27me3 intensity at highly paired and highly unpaired domains and the stack-up of line-profiles at highly paired and highly-unpaired regions can be found in this [notebook](https://github.com/Mittmich/scsHiCanalysis/blob/master/notebooks/Visualize_enrichment_results.ipynb).
+The quantification visualization of LOLA-enrichment scores, the quantification of H3K27me3 intensity at highly paired and highly unpaired domains and the stack-up of line-profiles at highly paired and highly-unpaired regions can be found in this [notebook](https://github.com/Mittmich/scsHiCanalysis/blob/master/notebooks/Visualize_enrichment_results_2.ipynb).
 
 ## Fig. 3
 
 ### (a)
 
-The visualization of the example region on chr.2 for the pooled G2 WT samples as well as the calculation of cis-sister and trans-sister contact density can be found in this [notebook](https://github.com/Mittmich/scsHiCanalysis/blob/master/notebooks/G2_pooled_examples.ipynb).
+The visualization of the example region on chr.2 for the pooled G2 WT samples as well as the calculation of cis-sister and trans-sister contact density can be found in this [notebook](https://github.com/Mittmich/scsHiCanalysis/blob/master/notebooks/G2_pooled_examples_v2.ipynb).
 
 ### (b), (e) and (f)
 
-The pileup of cis-sister and trans-sister contacts at TAD-centers as well as the stak-up of line profiles along TADs and the quantification of enrichment of trans-sister contacts at TAD-boundaries can be found in the following [notebook](https://github.com/Mittmich/scsHiCanalysis/blob/master/notebooks/TAD_analysis_WT.ipynb).
+The pileup of cis-sister and trans-sister contacts at TAD-centers as well as the stak-up of line profiles along TADs and the quantification of enrichment of trans-sister contacts at TAD-boundaries can be found in the following [notebook](https://github.com/Mittmich/scsHiCanalysis/blob/master/notebooks/TAD_analysis_WT_2.ipynb).
 
 ## Fig. 4
 
 ### (a)
 
-The visualization of the example region on chr. 1 for the G2 WT sample can be found in the following [notebook](https://github.com/Mittmich/scsHiCanalysis/blob/master/notebooks/G2_pooled_examples.ipynb). The visualization of the example region on chr. 1 for the Nipbl-degraded sample can be found in the following [notebook](https://github.com/Mittmich/scsHiCanalysis/blob/master/notebooks/Examples_Nipbl-AID.ipynb). The visualiztion of the example region on chr. 1 for the Sororin-degrade sample can be found in the folloiwing [notebook](https://github.com/Mittmich/scsHiCanalysis/blob/master/notebooks/Examples_Sororin-AID.ipynb).
+The visualization of the example region on chr. 1 for the G2 WT sample can be found in the following [notebook](https://github.com/Mittmich/scsHiCanalysis/blob/master/notebooks/G2_pooled_examples_v2.ipynb). The visualization of the example region on chr. 1 for the Nipbl-degraded sample can be found in the following [notebook](https://github.com/Mittmich/scsHiCanalysis/blob/master/notebooks/Examples_Nipbl-AID.ipynb). The visualiztion of the example region on chr. 1 for the Sororin-degrade sample can be found in the folloiwing [notebook](https://github.com/Mittmich/scsHiCanalysis/blob/master/notebooks/Examples_Sororin-AID.ipynb).
 
 ### (b)
 
@@ -60,15 +53,45 @@ The calculation of genomic scaling plots for the WT sample, the Sorroin-degraded
 
 ### (c)
 
-The pileup of TAD-centers for Nipbl-degraded sample can be found in the following [notebook](https://github.com/Mittmich/scsHiCanalysis/blob/master/notebooks/TAD_boundary_analysis_Nipbl.ipynb). A similar analysis for the Sororin sample can be found [here](https://github.com/Mittmich/scsHiCanalysis/blob/master/notebooks/TAD_boundary_analysis_Sororin.ipynb).
+The pileup of TAD-centers for Nipbl-degraded sample can be found in the following [notebook](https://github.com/Mittmich/scsHiCanalysis/blob/master/notebooks/TAD_boundary_analysis_Nipbl_v2.ipynb). A similar analysis for the Sororin sample can be found [here](https://github.com/Mittmich/scsHiCanalysis/blob/master/notebooks/TAD_boundary_analysis_Sororin_v2.ipynb).
 
 ### (d)
 
-The obs/expected stack-up calculations can be found in the following notebooks: [WT](https://github.com/Mittmich/scsHiCanalysis/blob/master/notebooks/TAD_analysis_WT.ipynb), [Nipbl](https://github.com/Mittmich/scsHiCanalysis/blob/master/notebooks/TAD_boundary_analysis_Nipbl.ipynb), [Sororin](https://github.com/Mittmich/scsHiCanalysis/blob/master/notebooks/TAD_boundary_analysis_Sororin.ipynb).
+The obs/expected stack-up calculations can be found in the following notebooks: [WT](https://github.com/Mittmich/scsHiCanalysis/blob/master/notebooks/TAD_analysis_WT_2.ipynb), [Nipbl](https://github.com/Mittmich/scsHiCanalysis/blob/master/notebooks/TAD_boundary_analysis_Nipbl_v2.ipynb), [Sororin](https://github.com/Mittmich/scsHiCanalysis/blob/master/notebooks/TAD_boundary_analysis_Sororin_v2.ipynb).
 
 ### (e)
 
 The quantification of contact amount at TAD-boundaries for G2 WT samples, G2 Nipbl-degraded samples and G2 Sororin-degraded samples as done in this [notebook](https://github.com/Mittmich/scsHiCanalysis/blob/master/notebooks/Quantify_ICCF_Sororin_WT_Nipbl.ipynb).
+
+## Extended Data Fig. 1
+
+### (d)
+
+The quantification of percentage of cells that is alive upon treatment with different concentrations of 4sT and etoposide for 24h was done in this [notebook](https://github.com/Mittmich/scsHiCanalysis/blob/master/notebooks/Plot_apoptotic_index_timelapse_specific_timepoints.ipynb)
+
+### (f)
+
+The quantifiction of normalized (to control) p-gamma-H2A.X signal upon treatment with 4sT and etoposide for 24h was done in this [notebook](https://github.com/Mittmich/scsHiCanalysis/blob/master/notebooks/Plot_phospho_gamma_H2A_exp4750_and_exp4611.ipynb)
+
+
+### (i)
+
+The quantification of doubly labelled reads in scsHi-C samples released into S-Phase for different amounts of time can be found in this [notebook](https://github.com/Mittmich/scsHiCanalysis/blob/master/notebooks/Count_percentage_doubly_labeled_S-Phase-Release.ipynb).
+
+### (j)
+
+The quantification of trans-sister contacts in scsHi-C samples generated n G2, prometaphase in the following G1 phase can be found in this [notebook](https://github.com/Mittmich/scsHiCanalysis/blob/master/notebooks/Count_cis_trans_G2_Prometaphase_G1.ipynb).
+
+## Extended Data Fig. 2
+
+## (a)
+
+Mass spec based quantification of 4sT in DNA from cells grown for 5 days in 4sT was done in the following [notebook](https://github.com/Mittmich/scsHiCanalysis/blob/master/notebooks/Plot_exp4572_exp4557.ipynb)
+
+## (b)
+
+Quantification of sequencing based incorporation of 4sT was done in the following [notebook](https://github.com/Mittmich/scsHiCanalysis/blob/master/Calculate_relative_mutation_rate.ipynb)
+
 
 ## Extended Data Fig. 3
 
@@ -110,7 +133,7 @@ HiCrep was run for the different prometaphase replicates in this [notebook](http
 
 ### (a)
 
-Example of G2 WT data on chromosome 3 was visualized in  the following [notebook](https://github.com/Mittmich/scsHiCanalysis/blob/master/notebooks/G2_pooled_examples.ipynb).
+Example of G2 WT data on chromosome 3 was visualized in  the following [notebook](https://github.com/Mittmich/scsHiCanalysis/blob/master/notebooks/G2_pooled_examples_v2.ipynb).
 
 ### (b)
 
@@ -122,23 +145,61 @@ Correlation of scsHi-C data with dCas9 loci splitting frequency was done in the 
 
 ### (d)
 
-Histogram of average trans-sister contact per TAd was calculated in the following [notebook](https://github.com/Mittmich/scsHiCanalysis/blob/master/notebooks/Visualize_enrichment_results.ipynb).
+Histogram of average trans-sister contact per TAd was calculated in the following [notebook](https://github.com/Mittmich/scsHiCanalysis/blob/master/notebooks/Visualize_enrichment_results_2.ipynb).
+
+### (e)
+
+Scaling plots of cis-sister and trans-sister contacts in highly paired and highly unpaired domains was calculated in the following [notebook](https://github.com/Mittmich/scsHiCanalysis/blob/master/notebooks/Scaling_Plots_G2_WT_pairingDoms.ipynb)
+
+### (f)
+
+Average H3K27me3 signal at high-pairing domains was calculated in the folloiwng [notebook](https://github.com/Mittmich/scsHiCanalysis/blob/master/notebooks/Visualize_enrichment_results_2.ipynb).
+
 
 ## Extended Data Figure 6
 
-Example regions in this figure were plotted in the following [notebook](https://github.com/Mittmich/scsHiCanalysis/blob/master/notebooks/G2_pooled_examples.ipynb).
+### (a), (b), (c)
+
+Example regions in this figure were plotted in the following [notebook](https://github.com/Mittmich/scsHiCanalysis/blob/master/notebooks/G2_pooled_examples_v2.ipynb).
+
+### (d)
+
+Hi-C stack-ups at CTCF sites were calculated in the following [notebook](https://github.com/Mittmich/scsHiCanalysis/blob/master/CTCF_pileup_WT.ipynb).
+
+### (e)
+
+Quantification of Hi-C signal at CTCF sites was done in the following [notebook](https://github.com/Mittmich/scsHiCanalysis/blob/master/CTCF_analysis_WT.ipynb).
 
 ## Extended Data Figure 7
 
-## (c)
+### (c)
 
 Scaling plots for WT G2 and Nipbl-degraded samples constructed from all reads can be found in the following [notebook](https://github.com/Mittmich/scsHiCanalysis/blob/master/notebooks/Scaling_G2_Nipbl_all_reads.ipynb).
 
-## (e)
+### (e)
 
-Example regions were plotted in the following notebook: [WT](https://github.com/Mittmich/scsHiCanalysis/blob/master/notebooks/G2_pooled_examples.ipynb), [Sororin-degraded](https://github.com/Mittmich/scsHiCanalysis/blob/master/notebooks/Examples_Sororin-AID.ipynb), [NIPBL-degraded](https://github.com/Mittmich/scsHiCanalysis/blob/master/notebooks/Examples_Nipbl-AID.ipynb).
+Example regions were plotted in the following notebook: [WT](https://github.com/Mittmich/scsHiCanalysis/blob/master/notebooks/G2_pooled_examples_v2.ipynb), [Sororin-degraded](https://github.com/Mittmich/scsHiCanalysis/blob/master/notebooks/Examples_Sororin-AID.ipynb), [NIPBL-degraded](https://github.com/Mittmich/scsHiCanalysis/blob/master/notebooks/Examples_Nipbl-AID.ipynb).
 
-## (f)
+### (f)
 
 HiC-rep analysis of all NIPBL-degraded samples was done in the following [notebook](https://github.com/Mittmich/scsHiCanalysis/blob/master/notebooks/HiCRep_Nipbl_v1.ipynb).
 HiC-rep analysis of Sororin-degraded samples was done in the following [notebook](https://github.com/Mittmich/scsHiCanalysis/blob/master/notebooks/HiCRep_Sororin_v1.ipynb).
+
+## Extended Data Figure 8
+
+## (a)
+
+ICCF stack up analysis of NIPBL-degraded cells was done in the following [notebook](https://github.com/Mittmich/scsHiCanalysis/blob/master/notebooks/TAD_center_analysis_Nipbl.ipynb).
+
+## (b)
+
+Obs/exp stack up at TADs of WT and NIPBL-degraded cells was done in the following [notebook](https://github.com/Mittmich/scsHiCanalysis/blob/master/notebooks/TAD_center_analysis_Nipbl.ipynb).
+
+## (c)
+
+ICCF stack up analysis at highly paired and highly unpaired domains was done in the following [notebook](https://github.com/Mittmich/scsHiCanalysis/blob/master/notebooks/Pairing_domain_analysis_NIPBL_WT.ipynb).
+
+## (d)
+
+Pairing score stack up analysis at highly paired and highly unpaired domains was done in the following [notebook](https://github.com/Mittmich/scsHiCanalysis/blob/master/notebooks/Pairing_domain_analysis_NIPBL_WT.ipynb).
+
