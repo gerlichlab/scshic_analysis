@@ -2,6 +2,16 @@
 
 This repository contains notebooks for the analysis of scsHi-C data.
 
+## Preprocessing
+
+Preprocessing of scsHi-C experiments was done as follows: First, the [scshic_pipeline](https://github.com/gerlichlab/scshic_pipeline) was applied to raw sequencing data. The resulting cooler files were then balanced as follows:
+
+- All-contact coolers were zoomified and balanced conventionally (see the following [script](https://github.com/Mittmich/scsHiCanalysis/blob/master/preprocessing/Zoomify_and_balance_all_wOldG2_exp4812_ignore_diag_1_fc_1_2_3_4.sh) for an example for G2 WT data)
+- Cis-sister and trans-sister contacts were pooled (see the following [script](https://github.com/Mittmich/scsHiCanalysis/blob/master/preprocessing/Merge_coolers_cis_trans_forBalance_w_oldG2_fc_1_2_3_4.sh) for an example for G2 WT data)
+- Then, the pooled cis-and-trans sister contacts were zoomified and balanced (see the following [script](https://github.com/Mittmich/scsHiCanalysis/blob/master/preprocessing/Zoomify_and_balance_cis_and_trans_wOldG2_exp4812_ignore_diag_1_fc_1_2_3_4.sh) for an example for G2 WT data)
+- Then, cis-sister and trans-sister coolers were seperately zoomified (see the following [script](https://github.com/Mittmich/scsHiCanalysis/blob/master/preprocessing/Zoomify_cis_trans_wOldG2_exp4812_fc_1_2_3_4.sh) for an example for G2 WT data) and the obtained weights from the cis-and-trans sister coolers transferred to the cis-sister and trans-sister file respectively (see the following [script](https://github.com/Mittmich/scsHiCanalysis/blob/master/preprocessing/Transfer_weights_from_cis_and_trans_wOldG2_fc_1_2_3_4.py) for an example for G2 WT data).
+
+
 ## Fig. 1
 
 ### (d)
